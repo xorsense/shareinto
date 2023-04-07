@@ -18,7 +18,7 @@ class SharingPageState extends State<SharingPage> {
     return ListView(children: [
       const Text('Share', textScaleFactor: 1.25,),
       TextFormField(
-
+        initialValue: widget.sharedUrl,
       ),
       Text('Shared Url: ${widget.sharedUrl}'),
       const Divider(),
